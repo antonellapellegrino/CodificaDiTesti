@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+
+    <!-- contiene la descrizione del file, inclusi il titolo, l'autore, e le informazioni sulla pubblicazione -->
+        <fileDesc>
+             <titleStmt>
+                  <title type="main">I diari di Emanuele Artom</title>
+                  <author role="author" ref="#EA">Emanuele Artom</author>
+                  <respStmt>
+  					           <resp>Lettera di accompagnamento scritta da:</resp>
+                            <persName ref="#ASA">Amalia Segre Artom</persName>
+                   </respStmt>
+             </titleStmt>
+
+             <editionStmt>
+                   <edition>L'edizione digitale è stata realizzata ai fini del progetto d'esame del corso Codifica di Testi - Università di Pisa</edition>
+                   <respStmt>
+                        <resp>Lavoro di trascrizione e codifica in TEI P5 eseguito da:</resp>
+                            <name ref="#AM">Alessia Madonna</name>
+                            <name ref="#AP">Antonella Pellegrino</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Progetto di lavoro seguito ed approvato da:</resp>
+                            <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="UNIPI">Università di Pisa</orgName>
+                </publisher>
+                <pubPlace ref="PI">Pisa</pubPlace>
+                <address>
+                    <postCode>56127</postCode>
+                    <country key="IT">Italia</country>
+                </address>
+                <availability status="free"><p>Opera ad accesso libero</p></availability>
+				        <date when="2024-09">Settembre 2024</date>
+            </publicationStmt>
+            
+            <sourceDesc>
+                 <bibl>
+                    <title type="main">Diari</title>
+                    <author>
+                        <persName ref="#EA">
+                            <forename>Emanuele</forename>
+                            <surname>Artom</surname>
+                        </persName>
+                    </author>
+                    <date from="1943" to="1944">1943-1944</date>
+                    <distributor>
+                      <orgName ref="#CDEC">Fondazione Centro di Documentazione Ebraica Contemporanea</orgName>
+                    </distributor>
+                    <pubPlace ref="#MI">Milano</pubPlace>
+                    <availability status="free">
+                        <p>Disponibile presso il <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName>, consultabile online.</p>
+                    </availability>
+                 </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT" type="nation">Italia</country>
+                        <settlement type="city" ref="#MI">Milano</settlement>
+                        <institution ref="#CDEC">
+                            <orgName>
+                                <expan>Centro di Documentazione Ebraica Contemporanea</expan>
+                                <abbr>CDEC</abbr>
+                            </orgName>
+                        </institution>
+                        <repository role="history institute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">
+                           <orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName>
+                        </repository> 
+                        <collection>Fondo Emanuele Artom</collection>
+                        <idno>busta 1, fascicolo 9</idno>
+                    </msIdentifier>
+
+                    <physDesc>
+                        <objectDesc form="manuscript">
+                            <supportDesc source="https://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html" material="paper">
+                                <support>
+                                    Il manoscritto è stato realizzato su fogli di <material>carta</material> bianca o a righe orizzontali e verticali<pc>,</pc> talvolta con bordatura laterale<pc>,</pc> con superficie liscia e ruvida e di diverso spessore<pc>,</pc> liberamente ordinati<pc>.</pc>
+                                </support>
+                                <extent>
+                                    <note>
+                                        Il testo è composto da <measure unit="pages" quantity="174">174 pagine</measure><pc>,</pc> che comprendono nel dettaglio <measure unit="pages" quantity="1">1 pagina</measure> introduttiva che descrive la pagina successiva<pc>,</pc> seguita da <measure unit="pages" quantity="1">1 pagina</measure> contenente una lettera della signora <persName ref="#ASA">Amalia Segre Artom</persName> <pc>(</pc>madre di <persName ref="#EA">Emanuele Artom</persName><pc>)</pc><pc>,</pc> e infine <measure unit="pages" quantity="172">172 pagine</measure> di diario scritte da <persName ref="#EA">Emanuele Artom</persName><pc>.</pc>
+                                    </note>
+                                </extent>
+                                <foliation>
+                                    Sulle pagine non è riportata alcuna numerazione<pc>.</pc>
+                                </foliation>
+                                <collation>
+                                    Le pagine del diario non sono rilegate tra loro<pc>,</pc> e i singoli fogli sembrano provenire da fonti diverse per qualità della carta<pc>,</pc> spessore e tipologia di superficie<pc>.</pc> L'autore ha utilizzato in maniera alternata una penna a inchiostro nero e una matita a grafite<pc>.</pc> Le pagine sono scritte da sinistra verso destra e dall'alto verso il basso<pc>.</pc>
+                                </collation>
+                                <condition>
+                                    Le pagine sono in buone condizioni di conservazione e sono facilmente leggibili<pc>;</pc> alcuni fogli presentano strappi e buchi lungo i bordi e alcune macchie di sporco<pc>.</pc>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="10 30">
+                                    Le pagine sono scritte in un'unica colonna di testo che tende a occupare tutto lo spazio a disposizione<pc>;</pc> le righe di testo scritte vanno all'incirca da un minimo di 10 a un massimo di 30 per pagina<pc>.</pc>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <p>La seconda pagina della raccolta è stata scritta a mano in <term>corsivo</term> da <persName ref="#ASA">Amalia Segre Artom</persName><pc>,</pc> mentre tutte le pagine di diario sono state scritte a mano in <term>corsivo</term> da <persName ref="#EA">Emanuele Artom</persName><pc>.</pc></p>
+                        </handDesc>
+                        <accMat>
+                            La signora <persName ref="#ASA">Amalia</persName><pc>,</pc> madre di <persName ref="#EA">Emanuele</persName><pc>,</pc> nella sua lettera inclusa all'inizio del manoscritto dichiara la sua volontà che le pagine del diario<pc>,</pc> alla sua morte<pc>,</pc> siano consegnate al <orgName ref="#CDEC">Centro di Documentazione Ebraica</orgName><pc>;</pc> nella stessa lettera spiega il contenuto del plico in cui sono conservate le pagine di diario<pc>,</pc> a cui sono state aggiunte alcune scansioni e riproduzioni per garantire la sopravvivenza di alcune pagine che stavano riportando segni di sciupatura<pc>.</pc>
+                        </accMat>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            I diari sono stati scritti da <persName ref="#EA">Emanuele Artom</persName> tra il 1943 e il 1944<pc>:</pc> in queste pagine <persName ref="#EA">Artom</persName> racconta la sua esperienza partigiana dopo la firma dell'armistizio<pc>.</pc>
+                        </origin>
+                        <acquisition>
+                            La madre di <persName ref="#EA">Emanuele Artom</persName><pc>,</pc> ovvero la signora <persName ref="#ASA">Amalia Segre</persName><pc>,</pc> ha conservato i diari e ha chiesto che alla sua morte venissero consegnati al <orgName ref="#CDEC">Centro di Documentazione Ebraica</orgName><pc>.</pc>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+      </fileDesc>
+
+            <!-- descrive il processo di codifica, inclusi i progetti coinvolti e le pratiche editoriali adottate -->
+               <encodingDesc>
+                  <editorialDecl>
+                  <correction>
+                    <p>Le correzioni degli errori grammaticali sono state eseguite secondo i principi e le regole della grammatica della lingua italiana<pc>.</pc></p>
+                 </correction>
+                 <punctuation>
+                    <p>I segni di punteggiatura sono stati mantenuti come nell'originale<pc>.</pc></p>
+                 </punctuation>
+                 <hyphenation>
+                    <p>La sillabazione delle parole per il ritorno a capo è stata mantenuta come presente nell'originale<pc>,</pc> inoltre nelle righe interessate da sillabazione è indicato se inizia con una parola intera o con una parola spezzata dalla riga precedente<pc>.</pc></p>
+                 </hyphenation>
+                 <interpretation>
+                    <p>L'autore fa utilizzo di sigle e abbreviazioni che sono state sciolte e interpretate in fase di trascrizione<pc>,</pc> affiancando la versione originale alla versione estesa<pc>.</pc></p>
+                 </interpretation>
+                 <segmentation>
+                    <p>Le singole pagine codificate corrispondono a delle sezioni delimitate dal tag <pc>"</pc><gi>ab</gi><pc>"</pc><pc>,</pc> all'interno del quale il testo è diviso per righe tramite l'utilizzo del tag <pc>"</pc><gi>lb</gi><pc>"</pc><pc>.</pc></p>
+                 </segmentation>
+                  </editorialDecl>
+               </encodingDesc>
+
+        <!-- fornisce un profilo del testo, compreso l'uso delle lingue e altre caratteristiche testuali -->
+            <profileDesc>
+                  <creation>
+                   <date from="1943" to="1944">I diari sono stati scritti dal 1943 al 1944</date>
+                </creation>
+
+                <langUsage>
+                   <language ident="it">Italiano</language>
+               </langUsage>
+            </profileDesc>
+    </teiHeader>
+
+ <facsimile>
+   <surface xml:id="p111" n="1">
+    <graphic url='Schermata 2024-08-28 alle 23.53.31.png' width='746px' height='1014px' />
+    <zone points='84,59 77,82 660,94 673,142 737,175 742,133 735,80 726,65' />
+    <zone ulx="78" uly="12" lrx="734" lry="37" />
+    <zone ulx="75" uly="37" lrx="715" lry="65" />
+    <zone ulx="90" uly="86" lrx="664" lry="125" />
+    <zone ulx="88" uly="129" lrx="661" lry="175" />
+    <zone ulx="94" uly="167" lrx="704" lry="214" />
+    <zone ulx="88" uly="213" lrx="672" lry="248" />
+    <zone ulx="90" uly="249" lrx="657" lry="281" />
+    <zone ulx="88" uly="282" lrx="712" lry="327" />
+    <zone ulx="85" uly="321" lrx="656" lry="359" />
+    <zone ulx="93" uly="359" lrx="630" lry="393" />
+    <zone ulx="81" uly="392" lrx="663" lry="441" />
+    <zone ulx="80" uly="436" lrx="678" lry="482" />
+    <zone ulx="90" uly="472" lrx="661" lry="514" />
+    <zone ulx="94" uly="514" lrx="678" lry="559" />
+    <zone ulx="82" uly="557" lrx="684" lry="593" />
+    <zone ulx="90" uly="593" lrx="685" lry="636" />
+    <zone ulx="85" uly="624" lrx="611" lry="669" />
+    <zone ulx="86" uly="669" lrx="669" lry="707" />
+    <zone ulx="85" uly="711" lrx="679" lry="753" />
+    <zone ulx="86" uly="742" lrx="672" lry="783" />
+    <zone ulx="79" uly="774" lrx="644" lry="822" />
+    <zone ulx="81" uly="820" lrx="661" lry="862" />
+    <zone ulx="88" uly="858" lrx="634" lry="895" />
+    <zone ulx="85" uly="897" lrx="709" lry="946" />
+  </surface>
+
+  <surface xml:id="p112" n="2">
+    <graphic url='Schermata 2024-08-28 alle 23.51.09.png' width='750px' height='1018px' />
+    <zone ulx="99" uly="84" lrx="669" lry="134" />
+    <zone ulx="94" uly="126" lrx="674" lry="178" />
+    <zone ulx="87" uly="169" lrx="643" lry="205" />
+    <zone ulx="95" uly="202" lrx="679" lry="245" />
+    <zone ulx="97" uly="249" lrx="648" lry="295" />
+    <zone ulx="86" uly="282" lrx="676" lry="336" />
+    <zone ulx="77" uly="318" lrx="650" lry="368" />
+    <zone ulx="63" uly="352" lrx="678" lry="405" />
+    <zone ulx="95" uly="400" lrx="688" lry="454" />
+    <zone ulx="93" uly="437" lrx="642" lry="483" />
+    <zone ulx="86" uly="477" lrx="685" lry="520" />
+    <zone ulx="93" uly="513" lrx="701" lry="561" />
+    <zone ulx="99" uly="555" lrx="631" lry="586" />
+    <zone ulx="100" uly="590" lrx="681" lry="638" />
+    <zone ulx="96" uly="631" lrx="671" lry="673" />
+    <zone ulx="83" uly="668" lrx="655" lry="710" />
+    <zone ulx="82" uly="718" lrx="667" lry="755" />
+    <zone ulx="89" uly="753" lrx="670" lry="795" />
+    <zone ulx="103" uly="783" lrx="659" lry="827" />
+    <zone ulx="97" uly="824" lrx="593" lry="865" />
+    <zone ulx="91" uly="857" lrx="631" lry="896" />
+    <zone ulx="101" uly="893" lrx="652" lry="943" />
+  </surface>
+
+  <surface xml:id="p113" n="3">
+    <graphic url='Schermata 2024-08-28 alle 23.51.18.png' width='738px' height='1008px' />
+    <zone ulx="52" uly="4" lrx="715" lry="31" />
+    <zone ulx="58" uly="31" lrx="700" lry="51" />
+    <zone ulx="67" uly="49" lrx="398" lry="70" />
+    <zone ulx="73" uly="78" lrx="627" lry="119" />
+    <zone ulx="78" uly="121" lrx="624" lry="156" />
+    <zone ulx="69" uly="163" lrx="629" lry="197" />
+    <zone ulx="86" uly="192" lrx="610" lry="236" />
+    <zone ulx="76" uly="234" lrx="645" lry="276" />
+    <zone ulx="70" uly="269" lrx="653" lry="311" />
+    <zone ulx="57" uly="312" lrx="671" lry="358" />
+    <zone ulx="76" uly="352" lrx="690" lry="400" />
+    <zone ulx="80" uly="395" lrx="663" lry="431" />
+    <zone ulx="71" uly="434" lrx="640" lry="471" />
+    <zone ulx="72" uly="468" lrx="603" lry="506" />
+    <zone ulx="87" uly="501" lrx="647" lry="545" />
+    <zone ulx="68" uly="544" lrx="684" lry="593" />
+    <zone ulx="85" uly="581" lrx="644" lry="622" />
+    <zone ulx="58" uly="619" lrx="631" lry="667" />
+    <zone ulx="76" uly="655" lrx="697" lry="704" />
+    <zone ulx="70" uly="699" lrx="649" lry="743" />
+    <zone ulx="77" uly="731" lrx="658" lry="781" />
+    <zone ulx="69" uly="775" lrx="624" lry="823" />
+    <zone ulx="59" uly="813" lrx="633" lry="860" />
+    <zone ulx="81" uly="847" lrx="636" lry="897" />
+    <zone ulx="77" uly="894" lrx="650" lry="931" />
+    <zone ulx="87" uly="932" lrx="636" lry="958" />
+    <zone ulx="78" uly="961" lrx="720" lry="995" />
+  </surface>
+
+  <surface xml:id="114" n="4">
+    <graphic url='Schermata 2024-08-28 alle 23.51.27.png' width='740px' height='1014px' />
+    <zone ulx="176" uly="14" lrx="658" lry="57" />
+    <zone ulx="126" uly="43" lrx="647" lry="92" />
+    <zone ulx="83" uly="85" lrx="653" lry="125" />
+    <zone ulx="88" uly="119" lrx="663" lry="168" />
+    <zone ulx="88" uly="164" lrx="706" lry="207" />
+    <zone ulx="91" uly="201" lrx="688" lry="245" />
+    <zone ulx="87" uly="239" lrx="683" lry="279" />
+    <zone ulx="88" uly="279" lrx="672" lry="316" />
+    <zone ulx="89" uly="313" lrx="719" lry="362" />
+    <zone ulx="82" uly="354" lrx="657" lry="391" />
+    <zone ulx="85" uly="393" lrx="676" lry="437" />
+    <zone ulx="92" uly="437" lrx="676" lry="477" />
+    <zone ulx="95" uly="471" lrx="668" lry="511" />
+    <zone ulx="97" uly="512" lrx="677" lry="549" />
+    <zone ulx="91" uly="548" lrx="664" lry="587" />
+    <zone ulx="88" uly="586" lrx="660" lry="619" />
+    <zone ulx="81" uly="618" lrx="663" lry="661" />
+    <zone ulx="87" uly="663" lrx="661" lry="708" />
+    <zone ulx="90" uly="698" lrx="663" lry="753" />
+    <zone ulx="96" uly="739" lrx="671" lry="779" />
+    <zone ulx="93" uly="776" lrx="677" lry="819" />
+    <zone ulx="85" uly="811" lrx="650" lry="862" />
+    <zone ulx="52" uly="855" lrx="670" lry="892" />
+    <zone ulx="98" uly="891" lrx="682" lry="944" />
+  </surface>
+
+  <surface xml:id="115" n="5">
+    <graphic url='Schermata 2024-08-28 alle 23.51.36.png' width='742px' height='1014px' />
+    <zone points='96,392 94,433 632,448 694,486 709,449 671,413' />
+    <zone points='87,436 90,470 626,481 678,505 683,468 635,451' />
+    <zone ulx="82" uly="86" lrx="682" lry="139" />
+    <zone ulx="91" uly="129" lrx="666" lry="174" />
+    <zone ulx="86" uly="165" lrx="654" lry="221" />
+    <zone ulx="101" uly="203" lrx="632" lry="248" />
+    <zone ulx="94" uly="247" lrx="691" lry="285" />
+    <zone ulx="86" uly="273" lrx="632" lry="327" />
+    <zone ulx="92" uly="318" lrx="658" lry="377" />
+    <zone ulx="90" uly="353" lrx="657" lry="408" />
+    <zone ulx="80" uly="470" lrx="603" lry="513" />
+    <zone ulx="76" uly="512" lrx="627" lry="561" />
+    <zone ulx="80" uly="554" lrx="329" lry="592" />
+    <zone ulx="446" uly="589" lrx="594" lry="630" />
+    <zone ulx="80" uly="621" lrx="663" lry="673" />
+    <zone ulx="77" uly="665" lrx="660" lry="712" />
+    <zone ulx="82" uly="706" lrx="650" lry="748" />
+    <zone ulx="75" uly="747" lrx="674" lry="793" />
+    <zone ulx="78" uly="786" lrx="651" lry="828" />
+    <zone ulx="72" uly="821" lrx="614" lry="867" />
+    <zone ulx="65" uly="865" lrx="628" lry="902" />
+    <zone ulx="84" uly="903" lrx="610" lry="939" />
+  </surface>
+ </facsimile>
+ 
+ <text xml:id="testo" xml:lang="it" hand="#EA" type="diary" subtype="personal diary">
+    <body>
+        <ab type="page" xml:lang="it" n="111">
+            <pb xml:id="p111" facs="#111"/>
+
+                <lb xml:id="r1p111" facs="#p1r1" n="1"/>
+                 <add place="top">Il tempo è sempre bellissimo. Non una nube <unclear>in</unclear> <damage reason="cancelled">una</damage>
+                <lb xml:id="r2p111" facs="p1r2" n="2"/>
+                 settimana. Se continua così per altri <num>15</num> giorni, il               
+                <lb xml:id="r3p111" facs="p1r3" n="3"/>
+                 <del><gap reason="illegible" quantity="6" unit="chars"></gap></del> gelo invernale sarà forse evitato, già si <add place="right-margin">allungano le giornate</add>.</add>
+                <lb xml:id="r4p111" facs="p1r4" n="4"/>
+                 Nel pomeriggio arrivarono altre no
+                <lb xml:id="r5p111" facs="p1r5" n="5" break="yes"/>
+                 tizie sulle spie. Per la maggior 
+                <lb xml:id="r6p111" facs="p1r6" n="6"/>
+                 parte sono <name type="place">Bargesi</name> abitanti fuori
+                <lb xml:id="r7p111" facs="p1r7" n="7"/>
+                 e venuti <del>a far</del> in paese per l'occa
+                <lb xml:id="r8p111" facs="p1r8" n="8" break="yes"/>
+                 sione, quindi irreperibili, ma
+                <lb xml:id="r9p111" facs="p1r9" n="9"/>
+                 <del><gap reason="illegible" quantity="4" unit="chars"/></del> uno forse si può acciuffare.
+                <lb xml:id="r10p111" facs="p1r10" n="10"/>
+                 Ho disposto per avere dei testi
+                <lb xml:id="r11p111" facs="p1r11" n="11" break="yes"/>
+                 moni sicuri e diretti della
+                <lb xml:id="r12p111" facs="p1r12" n="12"/>
+                 sua colpevolezza, e siccome due
+                <lb xml:id="r13p111" facs="p1r13" n="13"/>
+                 o tre volte per settimana viene
+                <lb xml:id="r14p111" facs="p1r14" n="14"/>
+                 a <placeName ref="#Barge"><abbr>B<am>.</am></abbr></placeName> potrà essere ucciso in un
+                <lb xml:id="r15p111" facs="p1r15" n="15"/>
+                 agguato. Mi spaventa contem
+                <lb xml:id="r16p111" facs="p1r16" n="16" break="yes"/>
+                 plarmi mentre sto <sic>tramandolo</sic>
+                <lb xml:id="r17p111" facs="p1r17" n="17"/>
+                 contro la vita di un uomo, che
+                <lb xml:id="r18p111" facs="p1r18" n="18"/>
+                 lascerà moglie e figli, di un
+                <lb xml:id="r19p111" facs="p1r19" n="19"/>
+                 uomo che non mi conosce e che
+                <lb xml:id="r20p111" facs="p1r20" n="20"/>
+                 non conosco: <q type="thought">sono come un pesca
+                <lb xml:id="r21p111" facs="p1r21" n="21" break="yes"/>
+                 tore che cinge le reti intorno al
+                <lb xml:id="r22p111" facs="p1r22" n="22"/>
+                 pesce, <del>che non</del> <add place="supralinear">inconsapevole</add>, ma l'autore indiretto
+                <lb xml:id="r23p111" facs="p1r23" n="23"/>
+                 della propria morte è <persName type="unknown"><abbr>Ba</abbr></persName> stesso,
+                <lb xml:id="r24p111" facs="p1r24" n="24"/>
+                 che ha fatto la spia, gli autori
+                <lb xml:id="r25p111" facs="p1r25" n="25"/>
+                 diretti siamo in molti</q>: <q type="mentioned">i delatori,</q>
+        </ab>
+        
+         <ab type="page" xml:lang="it" n="112">
+             <pb xml:id="p112" facs="#112"/>
+
+                <lb xml:id="r1p112" facs="#p2r1" n="1"/>
+                 <q>io che raccolgo le testimonianze, 
+                <lb xml:id="r2p112" facs="#p2r2" n="2"/>
+                 e le raccolgo senza ira e senza
+                <lb xml:id="r3p112" facs="#p2r3" n="3"/>
+                 compassione, senza desiderio
+                <lb xml:id="r4p112" facs="#p2r4" n="4"/>
+                 di perderlo o di salvarlo, solo
+                <lb xml:id="r5p112" facs="#p2r5" n="5"/>
+                 cercando di raggiungere la
+                <lb xml:id="r6p112" facs="#p2r6" n="6"/>
+                 verità, chi darà il giudizio,
+                <lb xml:id="r7p112" facs="#p2r7" n="7"/>
+                 e chi farà l’attentato.</q> <q type="thought">Ma
+                <lb xml:id="r8p112" facs="#p2r8" n="8"/>
+                 <subst><del>come</del><add place="left-margin">già</add></subst> pesa <add place="supralinear">anche solo</add> questa parte di re
+                <lb xml:id="r9p112" facs="#p2r9" n="9" break="yes"/>
+                 sponsabilità di una vita umana
+                <lb xml:id="r10p112" facs="#p2r10" n="10"/>
+                 e del dolore dei parenti che
+                <lb xml:id="r11p112" facs="#p2r11" n="11"/>
+                 resteranno <del rend="correction">:</del><add hand="author">.</add></q> Ieri andai ancora
+                <lb xml:id="r12p112" facs="#p2r12" n="12"/>
+                 dalla tabaccaia e le dimostrai
+                <lb xml:id="r13p112" facs="#p2r13" n="13"/>
+                 che i giovani che chiedono
+                <lb xml:id="r14p112" facs="#p2r14" n="14"/>
+                 le sigarette non sono partigiani,
+                <lb xml:id="r15p112" facs="#p2r15" n="15"/>
+                 ma sbandati che vivono nelle
+                <lb xml:id="r16p112" facs="#p2r16" n="16"/>
+                 fattorie, immeritevoli di aiuto
+                <lb xml:id="r17p112" facs="#p2r17" n="17"/>
+                 perchè non vogliono combattere,
+                <lb xml:id="r18p112" facs="#p2r18" n="18"/>
+                 poi portai <measure tyoe="currency">11000 lire</measure> alla tratto
+                <lb xml:id="r19p112" facs="#p2r19" n="19" break="yes"/>
+                 ria. Tutti i miei sforzi vertono
+                <lb xml:id="r20p112" facs="#p2r20" n="20"/>
+                 a riguadagnare la fiducia
+                <lb xml:id="r21p112" facs="#p2r21" n="21"/>
+                 della popolazione, mentre degli
+                <lb xml:id="r22p112" facs="#p2r22" n="22"/>
+                 stupidi pare si divertano a fare
+         </ab>
+
+            <ab type="page" xml:lang="it" n="113">
+                <pb xml:id="p113" facs="#113"/>
+
+                <lb xml:id="r1p113" facs="#p3r1" n="1"/>
+                 il contrario: l'altro giorno uno
+                <lb xml:id="r2p113" facs="#p3r2" n="2"/>
+                 andò con la pistola da un ne
+                <lb xml:id="r3p113" facs="#p3r3" n="3" break="yes"/>
+                 goziante e gli disse: <said>Se non mi
+                <lb xml:id="r4p113" facs="#p3r4" n="4"/>
+                 denunzia le spie, le sparo
+                <lb xml:id="r5p113" facs="#p3r5" n="5"/>
+                 addosso.</said> <anchor xml:id="r1p144"/><add place="top">Altri uomini, forse alcuni di <damage>quella</damage> <abbr expan="cinquantina">50ina</abbr> di <del><gap reason="illegible"></gap></del> disertori fuggiti
+                <lb xml:id="r6p113" facs="#p3r6" n="6"/>
+                 <anchor xml:id="r2p144"/>all'arrivo dei Tedeschi, hanno assalito il farmacista con 
+                <lb xml:id="r7p113" facs="#p3r7" n="7"/>
+                 <anchor xml:id="r3p144">le armi chiedendo <measure type="currency">1000 lire</measure>.</anchor></add> Alla sera <persName ref="#GS"><abbr>G</abbr></persName> mi dice
+                <lb xml:id="r8p113" facs="#p3r8" n="8"/>
+                 misteriosamente e <unclear>con</unclear> aria da
+                <lb xml:id="r9p113" facs="#p3r9" n="9"/>
+                 ghiottone: <said>stasera ti condurrò
+                <lb xml:id="r10p113" facs="#p3r10" n="10"/>
+                 a dormire con le lenzuola.</said> Dopo
+                <lb xml:id="r11p113" facs="#p3r11" n="11"/>
+                 cena scendiamo a <placeName ref="#Barge"><abbr>B</abbr></placeName> e andiamo
+                <lb xml:id="r12p113" facs="#p3r12" n="12"/>
+                 in una famiglia amica. Ci si
+                <lb xml:id="r13p113" facs="#p3r13" n="13"/>
+                 fa la barba, ci si lavano i
+                <lb xml:id="r14p113" facs="#p3r14" n="14"/>
+                 denti e poi si va a dormire
+                <lb xml:id="r15p113" facs="#p3r15" n="15"/>
+                 in un immeso letto con <num>3</num> posti,
+                <lb xml:id="r16p113" facs="#p3r16" n="16"/>
+                 <del>il</del> un letto da <persName>Fiammetta</persName>, ma
+                <lb xml:id="r17p113" facs="#p3r17" n="17"/>
+                 purtroppo <name type="person">Fiammetta</name> non c'è.
+                <lb xml:id="r18p113" facs="#p3r18" n="18"/>
+                 <persName ref="#GS"><abbr>G<am>.</am></abbr></persName> fa le sue confidenze. Ha ricevuto
+                <lb xml:id="r19p113" facs="#p3r19" n="19"/>
+                 una lettera d'amore da <persName ref="#R">Renata</persName>,
+                <lb xml:id="r20p113" facs="#p3r20" n="20"/>
+                 ma non le crede. <q>Quella</q>, dice, <q>è 
+                <lb xml:id="r21p113" facs="#p3r21" n="21"/>
+                 una di quelle ragazze che pre
+                <lb xml:id="r22p113" facs="#p3r22" n="22" break="yes"/>
+                 gano gli uomini, ma lui non si
+               <lb xml:id="r23p113" facs="#p3r23" n="23"/>
+                 lascia fregare.</q> <subst><del rend="overtyped">La</del><add>Lo</add></subst> considero con
+               <lb xml:id="r24p113" facs="#p3r24" n="24"/>
+                 invidia, perché io mi sono la
+               <lb xml:id="r25p113" facs="#p3r25" n="25" break="yes"/>
+                 sciato fregare.<del>Fa'</del> mi mostra due
+               <lb xml:id="r26p113" facs="#p3r26" n="26"/>
+                <add place="bottom-margin" target="#r25p113">però la <del>carta</del> lettera lo ha evitato <gap reason="illegible" quantity="1" unit="chars"/><unclear>ugatti</unclear></add>
+        </ab>
+
+        <ab type="page" xml:lang="it" n="114">
+            <pb xml:id="p114" facs="#114"/>
+
+            <lb xml:id="r1p114" facs="#p4r1" n="1"/>
+             <add place="top-margin"> raccomandandomi di 
+            <lb xml:id="r2p114" facs="#p4r2" n="2"/>
+             non dire a <persName ref="#VM"><abb>V</abb></persName> che le possiede</add>
+            <lb xml:id="r3p114" facs="#p4r3" n="3"/>
+             fotografie di <persName ref="#R"><abbr>R.</abbr></persName> seminuda. 
+            <lb xml:id="r4p114" facs="#p4r4" n="4"/>
+             Il viso sgraziato e abbagliato dal
+            <lb xml:id="r5p114" facs="#p4r5" n="5"/>
+             sole sul corpo scultoreo. Infine parla
+            <lb xml:id="r6p114" facs="#p4r6" n="6"/>
+             di <persName ref="#VM"> Vanda </persName>. Le ha scritto di venire,
+            <lb xml:id="r7p114" facs="#p4r7" n="7"/>
+             chè le avrebbe trovato una buona 
+            <lb xml:id="r8p114" facs="#p4r8" n="8"/>
+             sistemazione e <persName ref="#VM"><abb>V</abb></persName> invece è andata
+            <lb xml:id="r9p114" facs="#p4r9" n="9"/>
+             in <placeName ref="#svi">Svizzera</placeName>. Se fosse venuta l'avrebbe
+            <lb xml:id="r10p114" facs="#p4r10" n="10"/>
+             sposata; ma <persName ref="#VM"><abbr>V</abbr></persName>con tutto il suo intuito
+            <lb xml:id="r11p114" facs="#p4r11" n="11" />
+             non <supplied reason="omitted-in-original">l'</supplied>ha capito. Il romanzo è finito,
+            <lb xml:id="r12p114" facs="#p4r12" n="12"/>
+             ma si vede che un po' gli rincresce,
+            <lb xml:id="r13p114" facs="#p4r13" n="13"/>
+             solo un po' perchè così è <gap quantity="4" unit="chars" reason="illegible"/>
+            <lb xml:id="r14p114" facs="#p4r14" n="14"/>
+             <choice><sic>rivo</sic><corr>privo</corr></choice> di sentimenti, ma nessuna
+            <lb xml:id="r15p114" facs="#p4r15" n="15"/>
+             tempesta sentimentale rompe il suo
+            <lb xml:id="r16p114" facs="#p4r16" n="16"/>
+             equilibrio. Prima sentiamo <orgName xml:id="RL" type="radio broadcaster">Radio 
+            <lb xml:id="r17p114" facs="#p4r17" n="17"/>
+             Londra</orgName>. <del><gap reason="illegible" quantity="1"/></del>Parla del secondo
+            <lb xml:id="r18p114" facs="#p4r18" n="18"/>
+             fronte, dello sbarco prossimo,
+            <lb xml:id="r19p114" facs="#p4r19" n="19"/>
+             degli <del> gli </del> ammiragli che lo dirige
+            <lb xml:id="r20p114" facs="#p4r20" n="20" break="yes"/>
+             ranno. C'è in aria un senso di 
+            <lb xml:id="r21p114" facs="#p4r21" n="21"/>
+             attesa che non provavo <num type="days">15</num> giorni
+            <lb xml:id="r22p114" facs="#p4r22" n="22" />
+             fa, quando pensavo alla vittoria
+            <lb xml:id="r23p114" facs="#p4r23" n="23"/>
+             <subst><del>di</del><add place="margin">in</add></subst><abbr>sett </abbr>. Ieri correva una leggenda:
+            <lb xml:id="r24p114" facs="#p4r24" n="24"/>
+             <persName ref="#AH" role="dictator">Hitler</persName> ucciso dai generali 
+       </ab>
+
+       <ab type="page" xml:lang="it" n="115">
+            <pb xml:id="p115" facs="#115"/>
+
+            <lb xml:id="r1p115" facs="#p5r1" n="1"/>
+            pagine sporche, macchiate, sgualcite,
+            <lb xml:id="r2p115" facs="#p5r2" n="2"/>
+            scritte con un vecchio pennino rotto.
+            <lb xml:id="r3p115" facs="#p5r3" n="3"/>
+            Sono tranquillo ma <personName ref="AG">Toni</personName> e <personName ref="P">Peru</personName>
+            <lb xml:id="r4p115" facs="#p5r4" n="4"/>
+            tremano di paura: io non
+            <lb xml:id="r5p115" facs="#p5r5" n="5"/>
+            sono <persName><abb>D.</abb> Chisciotte</persName>, ma loro sono
+            <lb xml:id="r6p115" facs="#p5r6" n="6"/>
+            <persName><abb >S<am>.</am></abb>Pancia</persName>. Oggi <personName ref="AG">Toni</personName> diceva a
+            <lb xml:id="r7p115" facs="#p5r7" n="7"/>
+            <personName ref="#P">Peru</personName>: <q xml:id="it-piem">Beica da si', beica da là
+            <lb xml:id="r8p115" facs="#p5r8" n="8"/>
+            che staseira i beicoma pi niente.</q>
+             <lb xml:id="r9p115" facs="#p5r9" n="9"/>
+            E <personName ref="#P">Peru</personName>: <q xml:id="it-piem">a venta nascundse <del><gap reason="illegible" quantity="1"/></del> an <add place="margin">mes a le</add>
+            <lb xml:id="r10p115" facs="#p5r10" n="10"/>
+            <del><gap reason="illegible" quantity="1"/></del> feie drinta na stala; mi an
+            <lb xml:id="r11p115" facs="#p5r11" n="11"/>
+            butu suta na vaca, si l'hai
+            <lb xml:id="r12p115" facs="#p5r12" n="12"/>
+            fam o sei, i pupo, la vaca a
+            <lb xml:id="r13p115" facs="#p5r13" n="13"/>
+            ten dco caud.</q>
+            <lb xml:id="r14p115" facs="#p5r14" n="14"/>
+            <date when="1944-12-31"> 31 dicembre.</date>
+             <lb xml:id="r15p115" facs="#p5r15" n="15"/>
+            Ieri pomeriggio scesero gli uomini della
+             <lb xml:id="r16p115" facs="#p5r16" n="16"/> 
+            banda di <perName ref="S">Stele</perName>, da <placeName ref="SanGrato">San Grato</placeName>, dove pass
+             <lb xml:id="r17p115" facs="#p5r17" n="17" break="yes"/>
+            avano le squadre tedesche. <personName ref="#B">Bianco</personName> a
+             <lb xml:id="r18p115" facs="#p5r18" n="18" break="yes"/>
+            vrebbe voluto <del>tentar</del>  disporli sotto le piante
+             <lb xml:id="r19p115" facs="#p5r19" n="19"/>
+            con le armi; per tentare una resistenza, ma
+             <lb xml:id="r20p115" facs="#p5r20" n="20"/>
+            io non mi sentii di approvare questo
+             <lb xml:id="r21p115" facs="#p5r21" n="21"/>
+            piano di battaglia. Li feci entrare in
+             <lb xml:id="r22p115" facs="#p5r22" n="22"/>
+            casa, perchè gli aeroplani che ci  
+      </ab>
+    </body>
+ <back>
+ <listPerson>
+    <!-- Emanuele Artom -->
+    <person xml:id="EM" sex="M" role="partigiano">
+        <persName> 
+            <forename>Emanuele</forename>
+            <surname>Artom</surname>
+        </persName>
+        <birth when="1915-23-06">
+            23 Giugno 1915
+            <placeName>
+                <settlement type="city">Aosta</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </birth>
+        <death when="1944-07-04">
+            7 Aprile 1944
+            <placeName>
+                <settlement type="city">Torino</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </death>
+        <education>Laurea in Lettere</education>
+        <nationality></nationality>
+        <note>
+            <p>Emanuele Artom è stato un importante partigiano italiano durante la Seconda Guerra Mondiale, attivo nella Resistenza contro il nazifascismo. Nato a Torino in una famiglia ebraica, fu un intellettuale e storico, conosciuto per i suoi diari che offrono un'importante testimonianza della lotta partigiana. Si laureò in Lettere all'Università degli Studi di Torino. Venne catturato e torturato dai nazifascisti nel 1944, morendo poco dopo a causa delle ferite riportate.</p>
+        </note>
+    </person>
+
+    <!-- Amalia Segre Artom-->
+    <person xml:id="ASA" sex="F" role="principal">
+        <persName> 
+            <forename>Amalia</forename>
+            <surname>Segre</surname>
+            <surname>Artom</surname>
+        </persName>
+        <birth when="1890">
+            1890
+            <placeName>
+                <settlement type="city">Torino</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </birth>
+        <death when="1972-09-10">
+            9 Ottobre 1972
+            <placeName>
+                <settlement type="city">Torino</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </death>
+        <education>Laurea in Matematica</education>
+        <nationality></nationality>
+        <note>
+            <p>Madre di Emanuele Artom si occupò di ricostruire e pubblicare le pagine di diario del figlio. Fu per vent'anni la preside della scuola media ebraica di Torino, intitolata a Emanuele Artom.</p>
+        </note>
+    </person>
+
+    <!-- Giorgio Segre -->
+    <person xml:id="GS" sex="M" role="professor">
+        <persName> 
+            <forename>Giorgio</forename>
+            <surname>Segre</surname>
+        </persName>
+        <birth when="1920-02-20">
+            20 Febbraio 1920
+            <placeName>
+                <settlement type="city">Torino</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </birth>
+        <death when="1996-08-13">
+            13 Agosto 1996
+            <placeName>
+                <settlement type="city">Torino</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </death>
+        <education when="1943">Laurea in Medicina e Chirurgia</education>
+        <nationality></nationality>
+        <note>
+            <p>Gestisce insieme ad Emanuele Artom la Biblioteca della Comunità Ebraica ed organizza conferenze e serate di studio; nel 1939 partecipa alla redazione di un vocabolario ebraico-italiano per i cittadini italiani-ebrei. E' stato uno dei prmi collaboratori del movimento partigiano a Barge e svolgendo un'intensa attività come medico diventando responsabile di un'infermeria a Sant'Antonio di Gabiola .Nel 1943 si rifugia con la famiglia a Barge dove prende parte alla lotta di liberazione.</p>
+        </note>
+    </person>
+
+    <!-- Peru -->
+    <person xml:id="P" sex="M" role="partigiano">
+        <persName>
+            <addName>Peru</addName>
+        </persName>
+        <birth>
+            <date>unknown</date>
+        </birth>
+        <death>
+            <date>unknown</date>
+        </death>
+        <note>
+            <p>Nonostante venga menzionato più volte all'interno dei Diari, non sono chiare le sue generalità. Partigiano che lotta al Fianco di Artom.</p>
+        </note>
+    </person>
+
+    <!-- Antonio Giolitti -->
+    <person xml:id="AG" sex="M" role="politician">
+        <persName>
+            <forename>Antonio</forename>
+            <surname>Giolitti</surname>
+        </persName>
+        <birth when="1915-02-12">
+            12 Febbraio 1915
+            <placeName>
+                <settlement type="city">Roma</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </birth>
+        <death when="2010-02-08">
+            8 Febbraio 2010
+            <placeName>
+                <settlement type="city">Roma</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </death>
+        <education when="1940">Laurea in legge</education>
+        <nationality></nationality>
+        <note>
+            <p>Fu un grande animatore della resistenza e uno dei più noti partigiani della zona di Barge, Valle del Po e Monferrato. Partecipò alla liberazione di Torino. Fu quindi sottosegretario alla Guerra nel Ministero Parri e nel primo Ministero De Gasperi, successivamente è stato dirigente del PCI</p>
+        </note>
+    </person>
+
+    <!-- Bianco -->
+    <person xml:id="B" sex="M" role="partigiano">
+        <persName>
+            <surname>Bianco</surname>
+        </persName>
+        <birth>
+            <date>unknown</date>
+        </birth>
+        <death>
+            <date before="1945"/>
+            <placeName>
+                <settlement type="city">Barge</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </death>
+        <note>
+            <p>Partigiano garibaldino fucilato a Barge dai nazifascisti. Menzionato alla pagina 115 riga 17.</p>
+        </note>
+    </person>
+
+    <!-- Stele -->
+    <person xml:id="S" sex="M" role="partigiano">
+        <persName>
+            <surname>Stele</surname>
+        </persName>
+        <birth>
+            <date>unknown</date>
+        </birth>
+        <death>
+            <date>unknown</date>
+        </death>
+        <note>
+            <p>Nessuna informazione. Menzionato alla pagina 115 riga 16.</p>
+        </note>
+    </person>
+
+    <!-- Renata -->
+    <person xml:id="R" sex="F">
+        <persName>
+            <firstname>Renata</firstname>
+        </persName>
+        <birth>
+            <date>unknown</date>
+        </birth>
+        <death>
+            <date>unknown</date>
+        </death>
+        <note>
+            <p>Amante di Toni. Citata nel Diaro a pagina 113 riga 19 e 114 riga 1.</p>
+        </note>
+    </person>
+
+    <!-- Vanda Maestro -->
+    <person xml:id="VM" sex="F" role="partigiana">
+        <persName>
+            <forename>Vanda</forename>
+            <surname>Maestro</surname>
+        </persName>
+        <birth when="1919-05-27">
+            27 Maggio 1919
+            <placeName>
+                <settlement type="city">Torino</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </birth>
+        <death when="1944-31-10">
+            31 Ottobre 1944
+            <placeName>
+                <settlement type="city">Auschwitz</settlement>
+                <country key="PL">Polonia</country>
+            </placeName>
+        </death>
+        <education when="1942-10">Laurea in Chimica</education>
+        <nationality></nationality>
+        <note>
+            <p>Ebrea di origine triestina, la sua famiglia si era trasferita prima a Padova poi a Torino. Aveva partecipato alla difesa del Tempio ebraico. Si era poi trasferita a Milano dove, dopo l'8 settembre 1943, aveva cercato di riparare in Svizzera. Non essendoci riuscita aveva raggiunto in Va d'Aosta amici sfollati a Brusson che, con Primo Levi e altri pochi giovani, avevano costruito una banda partigiana presso Amay. Catturato dai nazi-fascisti, il gruppo fu deportato e, dopo una sosta a Fossoli, Vanda finì ad Auschwitz, dove morì.</p>
+        </note>
+    </person>
+
+    <!-- Adolf Hitler -->
+    <person xml:id="AH" sex="M" role="fuhrer">
+        <persName>
+            <forename>Adolf</forename>
+            <surname>Hitler</surname>
+        </persName>
+        <birth when="1889-20-04">
+            20 Aprile 1889
+            <placeName>
+                <settlement type="city">Braunau am Inn</settlement>
+                <country key="AT">Austria</country>
+            </placeName>
+        </birth>
+        <death when="1945-30-04">
+            30 Aprile 1945
+            <placeName>
+                <settlement type="city">Berlino</settlement>
+                <country key="DE">Germany</country>
+            </placeName>
+        </death>
+        <note>
+            <p>E' stato un politico austriaco naturalizzato tedesco, cancelliere del Reich dal 1933 e Führer della Germania dal 1934 al 1945, capo del Partito Nazionalsocialista Tedesco dei Lavoratori, nonché principale ideatore del nazionalsocialismo. Responsabile della morte di milioni di persone, Hitler fu propugnatore di un'ideologia nazionalista e razzista, nonché di una politica di discriminazione e sterminio che colpì vari gruppi etnici, politici e sociali e in paricolar modo degli ebrei.</p>
+        </note>
+    </person>
+
+    <!-- Angelo Mario Del Grosso -->
+    <person xml:id="AMDG" sex="M" role="professor">
+        <persName>
+            <forename type="first">Angelo</forename>
+            <forename type="middle">Mario</forename>
+            <surname>Del Grosso</surname>
+            <ref target="https://unimap.unipi.it/cercapersone/dettaglio.php?ri=129739"/>
+        </persName>
+        <note>Il prof.Angelo Mario Del Grosso insegna Codifica di Testi nel CdL in Informatica Umanistica presso l'Università di Pisa.</note>
+    </person>
+
+    <!-- Alessia Madonna -->
+    <person xml:id="AM" sex="F" role="student">
+        <persName>
+            <forename>Alessia</forename>
+            <surname>Madonna</surname>
+            <ref target=""/>
+        </persName>
+        <birth>
+            <date when="2000-16-03">16 Marzo 2000</date>
+            <placeName>
+                <settlement type="city">Pietrasanta</settlement>
+                <settlement type="district" key="LU">Lucca</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </birth>
+        <note>Alessia Madonna è una studentessa di Informatica Umanistica.</note>
+    </person>
+
+    <!-- Antonella Pellegrino -->
+    <person xml:id="AP" sex="F" role="student">
+        <persName>
+            <forename>Antonella</forename>
+            <surname>Pellegrino</surname>
+            <ref target=""/>
+        </persName>
+        <birth>
+            <date when="1998-06-08">6 Agosto 1998</date>
+            <placeName>
+                <settlement type="city">Polla</settlement>
+                <settlement type="district" key="SA">Salerno</settlement>
+                <country key="IT">Italy</country>
+            </placeName>
+        </birth>
+        <note>Antonella Pellegrino è una studentessa di Informatica Umanistica.</note>
+    </person>
+ </listPerson>
+ 
+ <listPlace>
+    <!-- Barge -->
+    <place xml:id="Barge">
+        <placeName>Barge</placeName>
+        <country type="nation" key="IT">Italia</country>
+        <settlement type="district" key="CN">Cuneo</settlement>
+        <desc>È un comune italiano della provincia di Cuneo dove Emanuele Artom si è arruolato nella Resistenza.</desc>
+    </place>
+
+    <!-- San Grato -->
+    <place xml:id="SanGrato">
+        <placeName>San Grato</placeName>
+        <country type="nation" key="IT">Italia</country>
+        <settlement type="district" key="CN">Cuneo</settlement>
+        <desc>Località in cima alla salita sulla strada che da Barge va a Bagnolo, dove venivano raccolte le nuove reclute e che fungeva da luogo di smistamento per i Garibaldini.</desc>
+    </place>
+
+    <!-- Pisa -->
+    <place xml:id="PI">
+        <placeName>Pisa</placeName>
+        <country type="nation" key="IT">Italia</country>
+        <settlement type="district" key="PI">Pisa</settlement>
+        <desc>Pisa è una provincia della Toscana, sede dell'Università di Pisa.</desc>
+    </place>
+
+    <!-- Torino -->
+    <place xml:id="TO">
+        <placeName>Torino</placeName>
+        <country type="nation" key="IT">Italia</country>
+        <settlement type="district" key="TO">Torino</settlement>
+        <desc>Torino è il capoluogo di regione del Piemonte.</desc>
+    </place>
+
+    <!-- Milano -->
+    <place xml:id="MI">
+        <placeName>Milano</placeName>
+        <country type="nation" key="IT">Italia</country>
+        <settlement type="district" key="MI">Milano</settlement>
+        <desc>Milano è il capoluogo di regione della Lombardia.</desc>
+    </place>
+
+    <!-- Svizzera -->
+    <place xml:id="Svi">
+        <placeName>Confederazione Svizzera</placeName>
+        <country type="nation" key="CH">Confederazione Svizzera</country>
+        <desc>La Svizzera è uno stato appartenente all'Europa geografica e Repubblica direttoriale federale.</desc>
+    </place>
+ </listPlace>
+
+ <listOrg>
+    <!-- Radio Londra -->
+    <org xml:id="RL" role="radio broadcaster">
+        <orgName>Radio Londra</orgName>
+        <desc>Radio Londra era l'insieme dei programmi radiofonici trasmessi, a partire dal 27 settembre 1938, dalla BBC e indirizzati alle popolazioni europee continentali. La redazione di Radio Londra diventò famosa per la sua tempestività nel trasmettere informazioni nel mondo, con il suo tipico stile inglese, diretto e pragmatico.</desc>
+        <country key="UK" type="nation">Regno Unito</country>
+    </org>
+
+    <!-- TEI -->
+    <org xml:id="TEI" role="consortium">
+        <orgName ref="https://tei-c.org/">Text Encoding Initiative</orgName>
+        <desc>LLa Text Encoding Initiative è un consorzio di istituzioni internazionali, di ambito linguistico e letterario, che ha sviluppato uno standard per la rappresentazione digitale dei testi.</desc>
+        <country type="nation" key="USA">Stati Uniti d'America</country>
+    </org>
+
+    <!-- UniPi -->
+    <org xml:id="UNIPI" role="institution">
+        <orgName ref="https://www.unipi.it/">Università di Pisa</orgName>
+        <desc>L'Università di Pisa è una delle più antiche e prestigiose Università in Italia e in Europa, è stata istituita nel 1343.</desc>
+        <country type="nation" key="IT">Italia</country>
+    </org>
+
+    <!-- CDEC -->
+    <org xml:id="CDEC" role="history institute">
+        <orgName ref="https://www.cdec.it/">Centro di documentazione ebraica contemporanea</orgName>
+        <desc>Il CDEC è un istituto storico culturale che promuove lo studio delle vicende storiche, della cultura e della realtà degli ebrei, con particolar riferimento all'Italia e all'età contemporanea.</desc>
+        <country type="nation" key="IT">Italia</country>
+    </org>
+ </listOrg>
+
+ <listBibl>
+    <bibl xml:lang="it" xml:id="b1">
+        <author>
+            <persName ref="#EA">
+                <forename>Emanuele</forename>
+                <surname>Artom</surname>
+            </persName>
+        </author>
+        <editor>
+            <persName ref="#PdB" role="curator">
+                <forename>Paola</forename>
+                <surname>De Benedetti</surname>
+            </persName>
+        </editor>
+        <editor>
+            <persName ref="#ER" role="curator">
+                <forename>Eloisa</forename>
+                <surname>Ravenna</surname>
+            </persName>
+        </editor>
+        <title type="full">Diari</title>
+        <title type="sub">Gennaio 1940 - febbraio 1944</title>
+        <pubPlace>
+            <placeName ref="#MI">Milano</placeName>
+        </pubPlace>
+        <date when="1996">1996</date>
+        <publisher>
+            <orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName>
+        </publisher>
+    </bibl>
+
+    <bibl xml:lang="it" xml:id="b2">
+        <author>
+            <persName ref="#EA">
+                <forename>Emanuele</forename>
+                <surname>Artom</surname>
+            </persName>
+        </author>
+        <editor>
+            <persName ref="#GS" role="curator">
+                <forename>Guri</forename>
+                <surname>Schwarz</surname>
+            </persName>
+        </editor>
+        <title type="full">Diari di un partigiano ebreo</title>
+        <title type="sub">Gennaio 1940 - febbraio 1944</title>
+        <pubPlace>
+            <placeName ref="#TO">Torino</placeName>
+        </pubPlace>
+        <date when="2008">2008</date>
+        <publisher>Bollati Boringhieri</publisher>
+    </bibl>
+ </listBibl>
+ </back>
+ </text>
+</TEI>
