@@ -1,10 +1,12 @@
 # Progetto d'esame di Codifica di Testi a.a.22/23
-Il progetto contenuto in questo repository è stato realizzato per l'esame di Codifica di Testi con il professor Angelo Mario Del Grosso da Antonella Pellegrino e Alessia Madonna.
+Progetto realizzato per l'esame di Codifica di Testi da Antonella Pellegrino e Alessia Madonna.
 
-Il progetto è stato validato con Xerces da terminale:
+#Il progetto è stato correttamente validato con Xerces da terminale restituendo il risultato:
 
-$ java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter -v pagine_diario.xml
+$ java -cp "Xerces-J-bin.2.12.2/xerces-2_12_2/*" dom.Counter -v pagine_diario.xml
 
-I file XML e XSL sono stati trasformati con il processore XSLT Saxon in un file HTML "pagine_diario.html" con il seguente comando:
+pagine_diario.xml: 201;29;0 ms (778 elems, 2578 attrs, 4021 spaces, 20440 chars)
 
-$ java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:codifica.xml -xsl:codifica.xsl -o:codifica.html
+#I file XML e XSL sono stati trasformati con il processore XSLT-Saxon restituendo il file HTML denominato "output.html":
+
+$ java -jar SaxonHE10-3J/saxon-he-10.3.jar -s:pagine_diario.xml -xsl:pagine_diario.xsl -o:output.html
