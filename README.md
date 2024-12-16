@@ -1,4 +1,4 @@
-# Progetto d'esame di Codifica di Testi a. a. 22/23
+# Progetto d'esame di Codifica di Testi (22/23)
 Progetto realizzato per l'esame di Codifica di Testi da Antonella Pellegrino e Alessia Madonna.
 
 ### Il file XML è stato validato con Xerces e ha restituito il seguente risultato:
